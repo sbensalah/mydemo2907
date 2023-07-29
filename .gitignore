@@ -1,0 +1,14 @@
+# Global .gitignore : contains all common files or directories not to be comited
+# each module with specific files or directories to not comited should include its own .gitignore
+
+**/.settings
+**/.classpath
+**/.project
+**/.factorypath
+**/.metadata
+**/bin
+**/target
+**/logs
+
+# Exclude generated jar files from target
+**.jar
